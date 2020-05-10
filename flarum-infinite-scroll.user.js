@@ -3,7 +3,7 @@
 // @description    Allows for infinite scrolling on the giffgaff community, automatically loading more content as you scroll.
 // @author         David Wheatley <davidwheatley03@gmail.com> (https://github.com/davwheat/giffgaff-flarum-infinite-scroll)
 // @namespace      https://github.com/davwheat/giffgaff-flarum-infinite-scroll
-// @version        0.1.0
+// @version        1.0.0
 // @icon           https://github.com/davwheat/giffgaff-flarum-infinite-scroll/blob/master/icon.png?raw=true
 // @match          *://community.giffgaff.com/*
 // @grant          none
