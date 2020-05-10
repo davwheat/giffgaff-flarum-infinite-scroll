@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           giffgaff Flarum Infini-scroll
-// @description    Allows for infinite scrolling, automatically loading more content as you scroll.
+// @description    Allows for infinite scrolling on the giffgaff community, automatically loading more content as you scroll.
 // @author         David Wheatley <davidwheatley03@gmail.com> (https://github.com/davwheat/giffgaff-flarum-infinite-scroll)
 // @namespace      https://github.com/davwheat/giffgaff-flarum-infinite-scroll
 // @version        0.1.0
