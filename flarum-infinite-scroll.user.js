@@ -10,6 +10,9 @@
 // @run-at         document-end
 // ==/UserScript==
 
+// Increase this if it's loading content too late
+const multiplier = 1.75
+
 function loadMoreIfNeeded() {
   const distanceToBottom = -(
     (document.body.scrollHeight || document.documentElement.scrollHeight) -
@@ -18,9 +21,14 @@ function loadMoreIfNeeded() {
         document.documentElement.clientHeight)
   );
 
-  if (distanceToBottom > document.documentElement.clientHeight * 1.5) return;
+  console.log({
+    "distance to bottom": distanceToBottom,
+    height: document.documentElement.clientHeight * multiplier,
+  });
+
+  if (distanceToBottom > document.documentElement.clientHeight * multiplier) return;
 
   $(".DiscussionList-loadMore button").click();
 }
 
-document.body.addEventListener("scroll", loadMoreIfNeeded, { passive: true });
+document.addEventListener("scroll", loadMoreIfNeeded, { passive: true });
