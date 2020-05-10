@@ -1,6 +1,6 @@
 # giffgaff-flarum-infinite-scroll
 
-This TamperMonkey allows for infinite scrolling on the giffgaff community, automatically loading more content as you scroll.
+This TamperMonkey script allows for infinite scrolling on the giffgaff community, automatically loading more content as you scroll.
 
 ## Installation
 
